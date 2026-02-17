@@ -19,3 +19,5 @@ A minimalist, high-performance desktop GUI for yt-dlp designed for high-quality 
 * CustomTkinter - Modern UI components.
 * yt-dlp - The engine for media extraction.
 * PyInstaller - For standalone executable packaging.
+
+### THE APP WAS MADE WITH THE USE OF AI
