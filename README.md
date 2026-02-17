@@ -1,4 +1,4 @@
-# YT-DLP Audio Interface (OPUS/MP3)
+# YT-DLP Audio Interface (OPUS/MP3/M4A)
 
 <img src="YT-DLP_Interface.png" alt="App Screenshot" width="70%">
 
@@ -24,4 +24,4 @@ A minimalist, high-performance desktop GUI for yt-dlp designed for high-quality 
 
 ---
 
-### THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE
+### THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE, IT IS OPEN-SOURCE AND FREE TO USE.
