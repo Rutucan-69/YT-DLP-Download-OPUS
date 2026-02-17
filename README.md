@@ -58,6 +58,5 @@ The app generates a `config.json` in the root directory to store your preference
   "ffmpeg": "C:\\FFMPEG\\bin",
   "download": "C:\\Users\\Name\\Music"
 }
----
 
-###THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE, IT IS OPEN-SOURCE AND FREE TO USE.
+**THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE, IT IS OPEN-SOURCE AND FREE TO USE.**
