@@ -1,27 +1,63 @@
-# YT-DLP Audio Interface (OPUS/MP3/M4A)
+# 🎵 Integrated Music Downloader
 
-<img src="YT-DLP_Interface.png" alt="App Screenshot" width="70%">
+A minimalist, high-performance GUI wrapper for `yt-dlp`, designed with a dark, industrial aesthetic. This tool allows for seamless audio extraction from web links into high-quality **MP3**, **OPUS**, or **M4A** formats.
 
-A minimalist, high-performance desktop GUI for yt-dlp designed for high-quality audio extraction. Featuring a dark-mode integrated control panel and built-in metadata tagging.
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)
+![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-blueviolet?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)
 
-### Features
-* **Integrated Header:** Window controls and URL input combined for a sleek, compact look.
-* **Dynamic Pathing:** Select your download folder and FFMPEG location directly in the app.
-* **Persistent Settings:** Remembers your paths between sessions via config.json.
-* **High Quality:** Supports OPUS, MP3, and M4A with metadata auto-tagging.
-* **Terminal Output:** Real-time logging of the download process.
+## ✨ Features
 
-### Installation and Setup
-1. Download the latest .exe from the Releases page.
-2. Ensure you have FFMPEG installed on your system.
-3. Launch the app and click the FFMPEG button to point the app to your ffmpeg/bin folder.
-4. Set your destination folder and start downloading.
+* **Custom Dark UI:** A borderless, modern interface built with `customtkinter` featuring a specific "dark" appearance mode.
+* **Format Flexibility:** Toggle between `MP3`, `OPUS`, and `m4a` formats via a segmented button.
+* **FFMPEG Integration:** Built-in path configuration to ensure high-quality audio conversion and metadata embedding.
+* **Real-time Console:** Live logging of the `yt-dlp` process and a visual progress bar.
+* **Persistent Settings:** Saves your download directory and FFMPEG path automatically to a `config.json` file.
+* **Multithreaded:** Downloads run in a background thread so the UI remains responsive.
 
-### Built With
-* CustomTkinter - Modern UI components.
-* yt-dlp - The engine for media extraction.
-* PyInstaller - For standalone executable packaging.
+## 🛠️ Prerequisites
 
+Before running the application, ensure you have the following installed:
+
+1.  **Python 3.8+**
+2.  **FFMPEG:** Required for audio conversion.
+3.  **yt-dlp:** The engine used for downloading and processing.
+
+## 🚀 Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/yourusername/music-downloader.git](https://github.com/yourusername/music-downloader.git)
+    cd music-downloader
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install customtkinter
+    ```
+    *Note: Ensure `yt-dlp` is installed and accessible in your system PATH.*
+
+3.  **Run the application:**
+    ```bash
+    python music_downloader.py
+    ```
+
+## 📖 How to Use
+
+1.  **Set FFMPEG:** Click the `⚙ FFMPEG` button and select the `bin` folder where your `ffmpeg.exe` is located.
+2.  **Choose Folder:** Click `📁 Folder` to set your destination for saved music.
+3.  **Paste Link:** Drop your URL into the entry bar at the top.
+4.  **Select Format:** Choose your preferred codec (MP3, OPUS, or M4A).
+5.  **Download:** Hit the `Download` button to start the process.
+
+## 🎛️ Configuration
+
+The app generates a `config.json` in the root directory to store your preferences. Example:
+```json
+{
+  "ffmpeg": "C:\\FFMPEG\\bin",
+  "download": "C:\\Users\\Name\\Music"
+}
 ---
 
-### THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE, IT IS OPEN-SOURCE AND FREE TO USE.
+###THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE, IT IS OPEN-SOURCE AND FREE TO USE.
