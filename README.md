@@ -50,6 +50,8 @@ Before running the application, ensure you have the following installed:
 4.  **Select Format:** Choose your preferred codec (MP3, OPUS, or M4A).
 5.  **Download:** Hit the `Download` button to start the process.
 
+**THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE, IT IS OPEN-SOURCE AND FREE TO USE.**
+
 ## 🎛️ Configuration
 
 The app generates a `config.json` in the root directory to store your preferences. Example:
@@ -58,5 +60,3 @@ The app generates a `config.json` in the root directory to store your preference
   "ffmpeg": "C:\\FFMPEG\\bin",
   "download": "C:\\Users\\Name\\Music"
 }
-
-**THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE, IT IS OPEN-SOURCE AND FREE TO USE.**
