@@ -1,5 +1,7 @@
 # YT-DLP Audio Interface (OPUS/MP3)
 
+![App Screenshot](YT-DLP_Interface.png)
+
 A minimalist, high-performance desktop GUI for yt-dlp designed for high-quality audio extraction. Featuring a dark-mode integrated control panel and built-in metadata tagging.
 
 ### Features
@@ -20,4 +22,4 @@ A minimalist, high-performance desktop GUI for yt-dlp designed for high-quality 
 * yt-dlp - The engine for media extraction.
 * PyInstaller - For standalone executable packaging.
 
-### THE APP WAS MADE WITH THE USE OF AI
+### THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE 
