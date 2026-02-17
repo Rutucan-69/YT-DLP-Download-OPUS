@@ -22,4 +22,6 @@ A minimalist, high-performance desktop GUI for yt-dlp designed for high-quality 
 * yt-dlp - The engine for media extraction.
 * PyInstaller - For standalone executable packaging.
 
-### THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE 
+---
+
+### THE APP WAS MADE WITH THE HELP OF AI, IT IS INTENDED FOR SELF USE
