@@ -1,6 +1,6 @@
 # YT-DLP Audio Interface (OPUS/MP3)
 
-![App Screenshot](YT-DLP_Interface.png)
+<img src="YT-DLP_Interface.png" alt="App Screenshot" width="100%">
 
 A minimalist, high-performance desktop GUI for yt-dlp designed for high-quality audio extraction. Featuring a dark-mode integrated control panel and built-in metadata tagging.
 
